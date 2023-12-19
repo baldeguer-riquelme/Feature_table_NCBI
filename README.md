@@ -1,7 +1,7 @@
 # Build "Feature table" for NCBI BankIt submission of viral genomes
 Contains scripts and information to build "Feature Tables" from viral genome sequences in fasta format. 
 
-NCBI asks users submitting viral genomes sequences to provide a "Feature Table" (https://www.ncbi.nlm.nih.gov/WebSub/html/help/feature-table.html) but I didn't find an easy and quick way to build them. If you are facing the same problem, in this repository you will find a script and instructions to obtain your "Feature Tables" in a matter of seconds using your genome fasta file as the unique input.
+NCBI asks users submitting viral genome sequences to provide a "Feature Table" (https://www.ncbi.nlm.nih.gov/WebSub/html/help/feature-table.html) but I didn't find an easy and quick way to build them. If you are facing the same problem, in this repository you will find a script and instructions to obtain your "Feature Tables" in a matter of seconds using your genome fasta file as the unique input.
 
 
 # Dependencies
