@@ -6,7 +6,7 @@ NCBI asks users submitting viral genome sequences to provide a "Feature Table" (
 
 # Dependencies
 
-tRNAScan-SE (tested with v2.0.12) https://github.com/UCSC-LoweLab/tRNAscan-SE
+[tRNAScan-SE](https://github.com/UCSC-LoweLab/tRNAscan-SE) (tested with v2.0.12) 
 
 Prodigal (tested with v2.6.3) https://github.com/hyattpd/Prodigal
 
