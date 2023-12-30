@@ -8,15 +8,15 @@ NCBI asks users submitting viral genome sequences to provide a "Feature Table" (
 
 [tRNAScan-SE](https://github.com/UCSC-LoweLab/tRNAscan-SE) (tested with v2.0.12) 
 
-Prodigal (tested with v2.6.3) https://github.com/hyattpd/Prodigal
+[Prodigal](https://github.com/hyattpd/Prodigal) (tested with v2.6.3) 
 
-Interproscan (tested with v5.65-97.0) https://interproscan-docs.readthedocs.io/en/latest/index.html
+[Interproscan](https://interproscan-docs.readthedocs.io/en/latest/index.html) (tested with v5.65-97.0) 
 
-Pandas (tested with v2.1.4) https://pandas.pydata.org/
+[Pandas](https://pandas.pydata.org/) (tested with v2.1.4) 
 
-Biopython (tested with v1.81) https://biopython.org/
+[Biopython](https://biopython.org/) (tested with v1.81) 
 
-Java (required v11.0.8) https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html
+[Java](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) (required v11.0.8) 
 
  
  
