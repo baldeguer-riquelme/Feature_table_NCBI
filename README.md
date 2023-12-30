@@ -1,5 +1,5 @@
 # Build "Feature table" for NCBI BankIt submission of viral genomes
-Contains scripts and information to build "Feature Tables" from viral genome sequences in fasta format. 
+Contains scripts and information to build "Feature Tables" using viral genome sequences in fasta format as the unique input. 
 
 NCBI asks users submitting viral genome sequences to provide a "Feature Table" (https://www.ncbi.nlm.nih.gov/WebSub/html/help/feature-table.html) but I didn't find an easy and quick way to build them. If you are facing the same problem, in this repository you will find a script and instructions to obtain your "Feature Tables" in a matter of seconds using your genome fasta file as the unique input.
 
@@ -26,7 +26,7 @@ The easiest way to install dependencies is creating a new conda environment:
 ```conda create --name feature_table -c bioconda -c conda-forge prodigal trnascan-se pandas biopython openjdk=11.0.8```
 
 We will also need to install interproscan following the instructions available at https://interproscan-docs.readthedocs.io/en/latest/HowToDownload.html
-For convenience I copy them below so you can just copy and paste
+For convenience I copy them below so you just need to copy and paste
 
 ```
 mkdir my_interproscan
