@@ -1,0 +1,4 @@
+##gff-version 3
+12_5	tRNAscan-SE	tRNA	7926	8053	45.9	+	.	ID=12_5.trna1;Name=12_5.tRNA1-AlaGGC;isotype=Ala;anticodon=GGC;gene_biotype=tRNA;
+12_5	tRNAscan-SE	exon	7926	7964	.	+	.	ID=12_5.trna1.exon1;Parent=12_5.trna1;
+12_5	tRNAscan-SE	exon	8015	8053	.	+	.	ID=12_5.trna1.exon2;Parent=12_5.trna1;
