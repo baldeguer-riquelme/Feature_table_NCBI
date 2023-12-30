@@ -54,7 +54,9 @@ cp -r * /soft/anaconda3/envs/feature_table/bin/
 ### Usage
 The easiest way to create your feature table is:
 
-```python Feature_table_NCBI.py --genome virus.fasta```
+```python Feature_table_NCBI.py --genome virus.fasta > Output.txt```
+
+A ".log" file will be generated which contains information about the process. If you face any error, check it.
 
 ### Usage with user-supplied files
 Alternatively you might want to provide all or some of the files needed to build the feature table (see the "examples" folder), such as:
@@ -64,4 +66,4 @@ Alternatively you might want to provide all or some of the files needed to build
 
 The script will check if you provide any of these additional files and predict the missing ones.
 
-```python Feature_table_NCBI.py --genome virus.fasta --prodigal virus.faa --trnas virus_tRNAScan-SE.gff --annotation_cds ipro_virus_final.tsv```
+```python Feature_table_NCBI.py --genome virus.fasta --prodigal virus.faa --trnas virus_tRNAScan-SE.gff --annotation_cds ipro_virus_final.tsv > Output.txt```
