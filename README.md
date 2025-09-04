@@ -18,6 +18,8 @@ NCBI asks users who submit viral genome sequences to provide a "Feature Table" (
 
 [Java](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) (required v11.0.8) 
 
+[Python](https://www.python.org/) (tested with v3.12.0; minimum version 3.9.0)
+
  
 ### Installation of dependencies
 
@@ -50,6 +52,18 @@ Then, add interproscan to the path by simply copying all the files to the "bin" 
 cp -r * /soft/anaconda3/envs/feature_table/bin/
 
 ```cp -r * /${path_to_env}/bin/```
+
+### Finally, clone the repository
+```
+git clone https://github.com/baldeguer-riquelme/Feature_table_NCBI.git
+cd Feature_table_NCBI
+```
+
+To see the script's arguments run:
+```
+python Feature_table_NCBI.py --help
+```
+
 
 ### Usage
 The easiest way to create your feature table is:
